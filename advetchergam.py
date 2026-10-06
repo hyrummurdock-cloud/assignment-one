@@ -1,0 +1,5 @@
+name = input("What is your name? ")
+print("hello ",  name)
+one = int(input("what is your favorite number  " ))
+tow = int(input('what is your second favorite number '))
+print(one*tow) 
