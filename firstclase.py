@@ -14,3 +14,15 @@ print(708*8)
 print('I hate to say it but I dont actually have a daily routine everything just changes every day')
 print('505284337 x 3456789876543=')
 print(505284337*3456789876543)
+win=1
+while win==1:
+  import random
+  dice=random.randint(1,2)
+  if dice==1:
+    print('you got 1 ')
+    print('again')
+   
+  else:
+     print('you are dead')
+     win=0
+print('Game Over')
